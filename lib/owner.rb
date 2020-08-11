@@ -56,6 +56,7 @@ class Owner
   
   def sell_pets 
      self.pets.collect {|p| p.mood = "nervous"}
+<<<<<<< HEAD
      self.pets.each {|o| o.owner = nil}
   end
   
@@ -63,5 +64,10 @@ class Owner
     "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
   end
     
+=======
+     binding.pry
+  
+  end
+>>>>>>> 6631f0bbb106661e75571d4753b00ed4d6df9d3a
   
 end
